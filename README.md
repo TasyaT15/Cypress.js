@@ -12,7 +12,6 @@
 ## Тест-кейсы, которые автоматизировали
 * Авторизация с верным паролем и верным логином
 * Авторизация c верным логином и неверным паролем
-* Авторизация с неверным логином и верным паролем
 * Проверка работы валиадации на наличие @ в логине
 * Проверка флоу восстановления пароля
 
@@ -35,7 +34,7 @@
 npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_cli.png)
+![image](https://raw.githubusercontent.com/TasyaT15/Cypress.js/refs/heads/main/terminal.png)
 
 
 ## Локальный запуск через Cypress UI
@@ -48,9 +47,9 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
+![image](https://raw.githubusercontent.com/TasyaT15/Cypress.js/refs/heads/main/autotests.png)
 
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Татьяна Татаркина ([@TatarkinaTasya](https://t.me/TatarkinaTasya))
